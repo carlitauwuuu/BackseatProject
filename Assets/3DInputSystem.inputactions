@@ -1,0 +1,77 @@
+{
+    "version": 1,
+    "name": "3DInputSystem",
+    "maps": [
+        {
+            "name": "a",
+            "id": "bc650681-5ea7-403a-9017-9253d19519b1",
+            "actions": [
+                {
+                    "name": "x",
+                    "type": "Value",
+                    "id": "dfab39c6-f32d-4fa1-8b0e-39f22048b0ea",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "y",
+                    "type": "Value",
+                    "id": "ac0fca17-1507-492e-bcd7-8d0b9ae3b157",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b69f8915-fc0d-4484-ba3c-e5dfb3607b4f",
+                    "path": "<Mouse>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "x",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "852eeb04-c02c-4ecb-a346-e583055e6725",
+                    "path": "<Mouse>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "y",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "aa",
+            "bindingGroup": "aa",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
