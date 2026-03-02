@@ -15,10 +15,10 @@ public class CameraC : MonoBehaviour
     
     void Start()
     {
-       Cursor.lockState = CursorLockMode.Locked; 
+       //Cursor.lockState = CursorLockMode.Locked; 
     }
 
-    public void OnLookX(InputAction.CallbackContext context)
+    /*public void OnLookX(InputAction.CallbackContext context)
     {
         float deltaX = context.ReadValue<float>() * mouseSensibilityX * Time.deltaTime;
         rotationY += deltaX;
@@ -32,5 +32,5 @@ public class CameraC : MonoBehaviour
         rotationX -= deltaY;
         rotationX = Mathf.Clamp(rotationX, -maxRotationX, maxRotationX);
         transform.localRotation = Quaternion.Euler(rotationX, rotationY, 0f);
-    }
+    }*/
 }

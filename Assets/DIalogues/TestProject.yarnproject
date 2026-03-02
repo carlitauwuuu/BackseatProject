@@ -8,9 +8,9 @@
     "./Samples/Yarn Spinner*/*"
   ],
   "localisation": {
-    "es": {}
+    "ca": {}
   },
-  "baseLanguage": "ca",
+  "baseLanguage": "es",
   "compilerOptions": {},
   "definitionsFiles": []
 }
