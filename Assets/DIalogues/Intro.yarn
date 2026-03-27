@@ -1,21 +1,21 @@
 ﻿title: Start
 ---
-Pasajera: Game starts on a black screen. 
+Narrator: Game starts on a black screen. 
 
-Pasajera: Shows name of the city, date and time. 
+Narrator: Shows name of the city, date and time. 
 
-Pasajera: It´s just a few minutes from new years.
+Narrator: It's just a few minutes from new years.
 
 Narrator: (Slow fade in to a taxi on stand by. The charater is sitting alone in the taxi. It´s all silent for a few seconds)
 
 Narrator: Game shows a black bar to the right of the screen that shows all the text.
 
-TaxiRadio: We need uhh... Ah taxi, It´s quite urgent. Anyone available? Taxi on Street (We need the name of a street)
+TaxiRadio: We need uhh... Ah taxi, It's quite urgent. Anyone available? Taxi on Street (We need the name of a street)
 TaxiRadio: Anyone?
 
 Narrator: The silence is deafening, too much for you to bear. 
 
-TaxiDriver: I got it, I got it. I´m on my way.
+TaxiDriver: I got it, I got it. I'm on my way.
 
 TaxiRadio: Alright. Wait... where are you right now exactly?
 
@@ -23,10 +23,48 @@ TaxiDriver: I'm in (Need the name of a street)
 
 TaxiRadio: Why?
 
-Taxista: Holii!! Esto es una prueba
-Pasajera: SFHSHFH
-->Pasajera: Hola muy buenas a todos, guapísimos.
-->Pasajera: Buenas a todos, criaturitas del señor.
+TaxiRadio: That's like, pretty far from there. You sure you wanna go?
+
+TaxiDriver: Who else is up at this hour at this day in particular? I'll take it man.
+
+TaxiRadio: Alright, Alright. Just... Take it easy man, I don't want you working to much on new years. Hear me?
+
+TaxiDriver: Yeah. I got it. 
+
+Narrator: You put your gloves on and start going there, its a long road ahead. 
+Narrator: There is almost noone on the street so you speed up a bit.
+Narrator: The street's are empty, all black and covered in the yellow tint of the lights.
+<<jump PassangerIntro>>
 ===
 
+title: PassangerIntro
+---
+Narrator: After a few minutes you get to your destination. 
+Narrator: You look at your clock and it's 30 minutes until new years. 
+Narrator: You park your car and search for your passenger on the rear view mirror. 
+Narrator: You didn't ask for a description because, first you are not a detective and second, there is pretty much noone on the street at this hour. 
+Narrator: A few seconds pass by and you hear a rythmic clack getting louder and louder. 
+Narrator: This must be your passanger and despite of how late they seem to be they don't appear to be on much of a rush. 
+Pasajera: Hi! Hey thanks for picking me up, I know it's a bit late and all that. 
+Pasajera: I need to get to (Name of a street) please.
 
+(Need to add script for random narrator)
+
+Radio: Well folks, we are just 20 minutes away from the new millenium!
+Radio: I hope you are all ready and prepared for tonight's celebrations!...
+    ->Speed up a bit
+        <<jump Speed>>
+    ->Say something
+        <<jump Saysomething>>
+===
+
+title: Saysomething
+---
+TaxiDriver: Uhm... I-I'm gonna change channels 
+
+===
+
+title: Speed
+---
+TaxiDriver: Hey, I'm gonna speed it up a bit okay? I- I don't want you to be late...
+===
