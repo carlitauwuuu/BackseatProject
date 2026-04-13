@@ -1,34 +1,21 @@
 ﻿title: Start
+position: -139,-782
 ---
 Narrator: Game starts on a black screen. 
-
 Narrator: Shows name of the city, date and time. 
-
 Narrator: It's just a few minutes from new years.
-
 Narrator: (Slow fade in to a taxi on stand by. The charater is sitting alone in the taxi. It´s all silent for a few seconds)
-
 Narrator: Game shows a black bar to the right of the screen that shows all the text.
-
 TaxiRadio: We need uhh... Ah taxi, It's quite urgent. Anyone available? Taxi on Street (We need the name of a street)
 TaxiRadio: Anyone?
-
 Narrator: The silence is deafening, too much for you to bear. 
-
 TaxiDriver: I got it, I got it. I'm on my way.
-
 TaxiRadio: Alright. Wait... where are you right now exactly?
-
 TaxiDriver: I'm in (Need the name of a street)
-
 TaxiRadio: Why?
-
 TaxiRadio: That's like, pretty far from there. You sure you wanna go?
-
 TaxiDriver: Who else is up at this hour at this day in particular? I'll take it man.
-
 TaxiRadio: Alright, Alright. Just... Take it easy man, I don't want you working to much on new years. Hear me?
-
 TaxiDriver: Yeah. I got it. 
 
 Narrator: You put your gloves on and start going there, its a long road ahead. 
@@ -38,6 +25,7 @@ Narrator: The street's are empty, all black and covered in the yellow tint of th
 ===
 
 title: PassangerIntro
+position: -131,-442
 ---
 Narrator: After a few minutes you get to your destination. 
 Narrator: You look at your clock and it's 30 minutes until new years. 
@@ -58,13 +46,91 @@ Radio: I hope you are all ready and prepared for tonight's celebrations!...
         <<jump Saysomething>>
 ===
 
-title: Saysomething
----
-TaxiDriver: Uhm... I-I'm gonna change channels 
-
-===
-
 title: Speed
+position: -405,-22
 ---
-TaxiDriver: Hey, I'm gonna speed it up a bit okay? I- I don't want you to be late...
+TaxiDriver: Hey, I'm gonna speed it up a bit okay? I- I don't want you to be late... 
+Pasajera: No no it's fine, I think we will get there in time
+TaxiDriver: Right but i don't want you to be too late to your party. 
+Pasajera: Oh believe me it's fine (she lowers her voice) It's not that much of a party anyways.
+TaxiDriver: Look I'm gonna speed up just a tiny bit okay? There is practically noone at this hour.
+Pasajera: I understand but even if most police officers are not on duty right not, the radars don't celebrate new years.
+Pasajera: Seriously thank you but, we are not that far away don't worry about it. I woudn't want you to get in trouble
+TaxiDriver: Yeah alright i'll just go easy then, sorry I just don't want you going late. I don't want you to miss such an important date...
+<<jump Silence>>
 ===
+
+title: Saysomething
+position: 17,-32
+---
+TaxiDriver: Uhm... I-I'm gonna change channels
+Narrator: While looking at the road you search the channel knob with your right hand. You think you have found it ,but your mussle memory is telling you otherwise, it's a knob, yes, but it dosen't feel like the car radio one. You turn it anyways
+Narrator: (There is a bit of silence for a few seconds, silence broken by a bit of static, until...)
+Taxi: Hey man, Is that you? Did you get the girl? Hello? Oh by the way you still owe me 20 dolars from yesterday just as a reminder...
+Narrator: Turns out your musle memory wasn't lying, that was not the car radio knob, that was the taxi radio one. Now your co-worker is talking. Fuck, I close my eyes for a bit and i breath. I can see her eyes light up for a second and she is smiling. Way to go man
+NarratorG: But  can you blame me? It's just a funny situation no the end of the world. I can see him visibly upset, I won't say anything just yet, I don't want to make him more nervous than he already is.
+TaxiDriver: -Um H-Hi yeah I got her. We are heading there right now. 
+Taxi: Right now? You are still not there yet? Man poor girl, she must be dying to get there, you better get there in time man or else I'm gonna up those 20 dolars you owe me to 40.
+Narrator:I want to be anywhere but in this taxi right now
+Pasajera:I want to say mr radio man that your friend here is doing a fantastic job of getting me to my destination and you shouldn't worry about a thing.
+Taxi:If you say so... I guess you will just be owing me 20, lucky you. Anyways i'll leave you to it man see ya.
+Narrator:As soon as you get the oportunity you turn off the taxi radio, leaving just the sound of the engine and the road 
+Pasajera: Was that your friend?
+TaxiDriver:Y-Yeah
+Pasajera:He sounds nice.
+TaxiDriver:(Sigh)- Yeah he is.
+<<jump Silence>>
+===
+
+title: Silence
+position: -213,374
+---
+TaxiDriver:...
+Pasajera:...
+Pasajera: So is this you only job?
+TaxiDriver: What?
+Pasajera: Is this your only job?
+TaxiDriver: Uhh... Yeah, Yeah it is.
+Pasajera: And how much do you make?
+TaxiDriver: Enough to get by... 
+TaxiDriver: My life ain't to expensive.
+Pasajera: What do you enjoy about it?
+TaxiDriver: I don't know, The lights , I guess the people, just driving all that.
+Pasajera: Oh, I thought you weren't that much of a talker.
+Pasajera: So why a be a Taxi Driver?
+TaxiDriver: Yeah I told you, The light's and all...
+Pasajera: Come on you can do better than that...
+TaxiDriver:I guess... It's like fun to imagine were people are going.
+TaxiDriver: Or who they are...
+Pasajera: Oh yeah?
+TaxiDriver: who did you think I was when I got in this taxi?
+TaxiDriver: I don't know...
+Pasajera: Please...?
+TaxiDriver: No like actually, I had not clue. Like when you came in you looked...
+TaxiDriver: Distracted....
+Narrator: Fuck did I struck a nerve? she is looking the other way...
+Pasajera: My dad used to say that... (lower voice)
+TaxiDriver: Fuck I'm sorry i didn't mean it that way.
+Pasajera: No... No... It's okay.
+Pasajera: ...
+TaxiDriver:...
+Pasajera:You wanna know why i asked you this?
+Pasajera: Cause i can't find anything I enjoy about mine.
+TaxiDriver: What do you work as?
+Pasajera: Accountant, for my dad's business.
+TaxiDriver: Okay, Why do you work there?
+Pasajera: Uh cause I don't really have a choice.
+TaxiDriver: Wait so you are 20 Something and you can't even decide where you work?
+Pasajera: No It's not about the age. I just like... I don't want to disapoint my father.
+Pasajera: And like I have to take the family business.
+TaxiDriver: Why?
+Pasajera: Why? For the like 3 reasons i just gave you?
+TaxiDriver: Listen the way I see it. It's your life, You are able to do whatever you want. 
+TaxiDriver: If I was your father I would be way more proud of you if you did whatever you wanted in life.
+TaxiDriver: Well...That's just what I think...
+Pasajera: Right...
+
+
+
+===
+
