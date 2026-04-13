@@ -1,3 +1,4 @@
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -15,22 +16,23 @@ public class CameraC : MonoBehaviour
     
     void Start()
     {
-       //Cursor.lockState = CursorLockMode.Locked; 
+       Cursor.lockState = CursorLockMode.Confined; 
+       Camera.main.transform.rotation = new Quaternion (0,0,0,0);
     }
 
-    /*public void OnLookX(InputAction.CallbackContext context)
+    public void OnLookX(InputAction.CallbackContext value)
     {
-        float deltaX = context.ReadValue<float>() * mouseSensibilityX * Time.deltaTime;
+        float deltaX = value.ReadValue<float>() * mouseSensibilityX * Time.deltaTime;
         rotationY += deltaX;
         rotationY = Mathf.Clamp(rotationY, -maxRotationY, maxRotationY);
         transform.localRotation = Quaternion.Euler(rotationX, rotationY, 0f);
     }
 
-    public void OnLookY(InputAction.CallbackContext context)
+    public void OnLookY(InputAction.CallbackContext value)
     {
-        float deltaY = context.ReadValue<float>() * mouseSensibilityY * Time.deltaTime;
+        float deltaY = value.ReadValue<float>() * mouseSensibilityY * Time.deltaTime;
         rotationX -= deltaY;
         rotationX = Mathf.Clamp(rotationX, -maxRotationX, maxRotationX);
         transform.localRotation = Quaternion.Euler(rotationX, rotationY, 0f);
-    }*/
+    }
 }
