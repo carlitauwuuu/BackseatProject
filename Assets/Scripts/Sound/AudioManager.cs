@@ -1,14 +1,16 @@
+using System;
 using System.Collections.Generic;
+using System.Data.Common;
+using FMOD.Studio;
+using FMODUnity;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour, IAudioSystem
 {
     public static IAudioSystem Instance {get; private set;}
 
-    [Header("Musica")]
-    [SerializeField] private AudioSource musicSource;
-    [Header("SFX Pool")]
-    [SerializeField] private int initialPoolSize = 15;
+    private EventInstance musicInstance;
+
     private List <AudioSource> sfxPool = new List<AudioSource>();
     void Awake()
     {
@@ -24,63 +26,60 @@ public class AudioManager : MonoBehaviour, IAudioSystem
 
         }
 
-        for (int i = 0; i < initialPoolSize; i++)
-        {
-            CreateNewSFXSource();
-        }
     }
 
-    private AudioSource CreateNewSFXSource()
+    public void PlaySFX(EventReference data,Vector3 position = default)
     {
-        GameObject gObject = new GameObject("SFX_Source");
-        gObject.transform.SetParent(transform);
-        AudioSource aSource = gObject.AddComponent<AudioSource>();
-        return aSource;
+        if(data.IsNull) return;
+        RuntimeManager.PlayOneShot(data,position);
+
     }
 
-    public AudioSource GetAvaliableSFXSource()
+    public void PlaySFX(EventReference data, Vector3 position, float parameterValue, string parameterName)
     {
-       foreach(var source in sfxPool)
-        {
-            if(!source.isPlaying) return source;
-        }
-       return CreateNewSFXSource();
+        if (data.IsNull) return;
+
+        EventInstance instance = RuntimeManager.CreateInstance(data);
+        instance.set3DAttributes(RuntimeUtils.To3DAttributes(position));
+
+        instance.setParameterByName(parameterName, parameterValue);
+
+        instance.start();
+        instance.release();
     }
 
-    public void PlaySFX(AudioData data,Vector3 position = default)
+    public void PlaySFX(EventReference data, Vector3 position, string parameterValue, string parameterName)
     {
-        if(data == null) return;
+      if (data.IsNull) return;
 
+        EventInstance instance = RuntimeManager.CreateInstance(data);
+        instance.set3DAttributes(RuntimeUtils.To3DAttributes(position));
 
-        AudioSource aSource = GetAvaliableSFXSource();
-        aSource.transform.position = position;
-        aSource.clip = data.GetRandomAudioClip();
-        aSource.volume = data.volume;
-        aSource.pitch = data.GetRandomAudioPitch();
+        instance.setParameterByNameWithLabel(parameterName, parameterValue);
 
-        aSource.Play();
+        instance.start();
+        instance.release();  
     }
 
-    public void PlayMusic(AudioData data)
+    public void PlayMusic(EventReference data)
     {
-       if(data == null)
+       if(data.IsNull)
         {
             StopMusic();
             return;
         }
-
-       AudioClip mClip = data.GetRandomAudioClip();
-       if(musicSource.clip == mClip && musicSource.isPlaying) return;
-
-       musicSource.clip = mClip;
-       musicSource.volume = data.volume;
-       musicSource.loop = data.isLooping;
-       musicSource.Play();
+        musicInstance = RuntimeManager.CreateInstance(data);
+        musicInstance.start();
     }
     
     public void StopMusic()
     {
-        musicSource.Stop();
+        if (!musicInstance.isValid())
+        {
+            return; 
+        }
+        musicInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        musicInstance.release();
     }
 
 }

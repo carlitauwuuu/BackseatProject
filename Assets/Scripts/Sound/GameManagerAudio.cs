@@ -1,13 +1,16 @@
+using FMODUnity;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 public class GameManagerAudio : MonoBehaviour
 {
-    [SerializeField] AudioData MusicData;
-    [SerializeField] AudioData SFXData;
+    [SerializeField] EventReference MusicData;
+    [SerializeField] EventReference SFXData;
     void Start()
     {
         AudioManager.Instance.PlayMusic(MusicData);
+        AudioManager.Instance.StopMusic();
     }
 
     void Update()
