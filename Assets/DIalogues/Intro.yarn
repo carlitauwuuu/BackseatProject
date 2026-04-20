@@ -129,8 +129,62 @@ TaxiDriver: Listen the way I see it. It's your life, You are able to do whatever
 TaxiDriver: If I was your father I would be way more proud of you if you did whatever you wanted in life.
 TaxiDriver: Well...That's just what I think...
 Pasajera: Right...
-
-
-
+Radio: We are just 10 minutes away from the new year's celebrations! 
+Radio: I hope everyone is having a great time with their loved ones!
+TaxiDriver:...
+Pasajera:...
+TaxiDriver: (Sigh) I'm sorry... I shouldn't talk about your family like that.
+Pasajera: No it's okay.
+TaxiDriver: No it's not I barely know you...
+Pasajera: you know…there is one thing I enjoy
+TaxiDriver: Tell me about it.
+Pasajera: I play… Used to play the violin. I started when I was around like 8 or 9 maybe
+Pasajera: I don’t know there is something about trying to nail the song and being so focused that I love.
+Pasajera: Like for a few seconds I just lose track of time.
+Pasajera: And all my problems or anything that’s bothering me goes away for a bit…
+TaxiDriver:that sounds nice… why did you stop then?
+Pasajera: oh I tried playing in front of the public, I just wasn’t good enough.
+TaxiDriver:But you enjoyed doing it right?
+TaxiDriver:Then what does being good matter?
+TaxiDriver:Listen my old man used to do hand crafted ceramics.
+TaxiDriver:I started doing it to because of him, I am no way near of starting a business like him.
+TaxiDriver:But that dosen't really matter because the feeling I get when i improve on my craft
+TaxiDriver:Is where I get my enjoyment.
+TaxiDriver:Listen i don't want to tell you how to enjoy things...
+TaxiDriver: But try to... Find your own happines in things...
+Pasajera:...
+Radio: We are just 5 minutes away from the new years! Have you all had time to think about your new years realizations?
+TaxiDriver: Five mintues?! 
+TaxiDriver: Fuck i'm so sorry I stared talking about my stuff and I forgot...
+TaxiDriver: Wait let me speed up we will get there in time I promise you.
+Pasajera: No It's fine really...
+TaxiDriver: Wait we are almost there.
+Pasajera: Hey Listen to me, please...
+<<jump secondACT>>
 ===
 
+title: secondACT
+---
+Pasajera: We are not going to get there. It´s too late
+TaxiDriver: But... 
+Pasajera: Please let me talk
+Pasajera: Just... Park the car.
+Pasajera: Listen, We are not gonna get there.
+TaxiDriver: (Sigh)
+Pasajera: So what about we just celebrate it here?
+TaxiDriver:What...?
+Pasajera:I'm serious. Better than nothing...Right?
+TaxiDriver: Oh no, I'm not doing this...
+Pasajera: Please? At least do it for me. 
+TaxiDriver: What if i say no...?
+Pasajera: Well then I will be very sad and My new years will be ruined...
+TaxiDriver: Hey that's not fair, If you would have let me go faster we would have...
+Radio: Only for minutes left to see the fire works go out! I hope you all have a happy time with your loved ones...
+TaxiDriver:...
+TaxiDriver:Okay.
+TaxiDriver:Okay fine.
+TaxiDriver: What do you want to do?
+Narrator: At this point in the story you will be able to decorate the car with things that she gives you and you put on display in the front window of the car.
+Narrator: This things will be made so that the player can chose which things they want. Its important that each thing gives a bit of insight of the charater.
+
+===
