@@ -119,6 +119,51 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &23719447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 23719449}
+  - component: {fileID: 23719448}
+  m_Layer: 0
+  m_Name: SpawnObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &23719448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23719447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53dcc3ebf114c0b488534a1fac27a2b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectSpawner
+  spawneable: {fileID: 3042007144289762043, guid: 44f6621b51e4f124ca42455bf29499a3, type: 3}
+--- !u!4 &23719449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23719447}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.51695, y: 0, z: 1.88883}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &37766453
 GameObject:
   m_ObjectHideFlags: 0
@@ -10816,23 +10861,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca85f3e06ec82c845b893704e19a6220, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioDialogueManager
-  dialogueSource: {fileID: 0}
   characters:
   - charaterName: Narrator
     clips:
-    - {fileID: 8300000, guid: 8dfb7065f1e374b43a01b8e3e52f9e7f, type: 3}
+      Guid:
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
   - charaterName: TaxiRadio
     clips:
-    - {fileID: 8300000, guid: 4c185774d1b7612498325c1106e20a4c, type: 3}
+      Guid:
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
   - charaterName: TaxiDriver
     clips:
-    - {fileID: 8300000, guid: 648f6a6cae7aac847ba8637049b21205, type: 3}
+      Guid:
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
   - charaterName: Pasajera
     clips:
-    - {fileID: 8300000, guid: c39f1f3a3e9cd8b4f8c10099d1c5ad68, type: 3}
+      Guid:
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
   defaultSound:
-  - {fileID: 8300000, guid: 8dfb7065f1e374b43a01b8e3e52f9e7f, type: 3}
-  pitchChange: 0.2
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &1814964805
 GameObject:
   m_ObjectHideFlags: 0
@@ -12656,3 +12724,4 @@ SceneRoots:
   - {fileID: 131670199}
   - {fileID: 1436263231}
   - {fileID: 736568245}
+  - {fileID: 23719449}

@@ -1,10 +1,12 @@
 ﻿title: Start
 position: -139,-782
 ---
+Narrator:Magia potajia voy a espawnear un cubito.
+<<spawn_object>>
 Narrator: Game starts on a black screen. 
 Narrator: Shows name of the city, date and time. 
 Narrator: It's just a few minutes from new years.
-Narrator: (Slow fade in to a taxi on stand by. The charater is sitting alone in the taxi. It´s all silent for a few seconds)
+Narrator: (Slow fade in to a taxi on stand by. The charater is sitting alone in the taxi. It's all silent for a few seconds)
 Narrator: Game shows a black bar to the right of the screen that shows all the text.
 TaxiRadio: We need uhh... Ah taxi, It's quite urgent. Anyone available? Taxi on Street (We need the name of a street)
 TaxiRadio: Anyone?
@@ -139,11 +141,11 @@ TaxiDriver: No it's not I barely know you...
 Pasajera: you know…there is one thing I enjoy
 TaxiDriver: Tell me about it.
 Pasajera: I play… Used to play the violin. I started when I was around like 8 or 9 maybe
-Pasajera: I don’t know there is something about trying to nail the song and being so focused that I love.
+Pasajera: I don't know there is something about trying to nail the song and being so focused that I love.
 Pasajera: Like for a few seconds I just lose track of time.
-Pasajera: And all my problems or anything that’s bothering me goes away for a bit…
+Pasajera: And all my problems or anything that's bothering me goes away for a bit…
 TaxiDriver:that sounds nice… why did you stop then?
-Pasajera: oh I tried playing in front of the public, I just wasn’t good enough.
+Pasajera: oh I tried playing in front of the public, I just wasn't good enough.
 TaxiDriver:But you enjoyed doing it right?
 TaxiDriver:Then what does being good matter?
 TaxiDriver:Listen my old man used to do hand crafted ceramics.
@@ -164,12 +166,13 @@ Pasajera: Hey Listen to me, please...
 ===
 
 title: secondACT
+position: -192,1069
 ---
-Pasajera: We are not going to get there. It´s too late
+Pasajera: We are not going to get there. It's too late
 TaxiDriver: But... 
 Pasajera: Please let me talk
 Pasajera: Just... Park the car.
-Pasajera: Listen, We are not gonna get there.
+Pasajera: Listen, We are It's already to late.
 TaxiDriver: (Sigh)
 Pasajera: So what about we just celebrate it here?
 TaxiDriver:What...?
@@ -186,5 +189,10 @@ TaxiDriver:Okay fine.
 TaxiDriver: What do you want to do?
 Narrator: At this point in the story you will be able to decorate the car with things that she gives you and you put on display in the front window of the car.
 Narrator: This things will be made so that the player can chose which things they want. Its important that each thing gives a bit of insight of the charater.
+Pasajera: Well I do have some stuff i was supossed to take there That maybe we can use to decorate the place.
+TaxiDriver:What's wrong with my car?
+Pasajera: Old car dosen't really give me the... Christmas spirit.
+TaxiDriver: Okay then... 
+
 
 ===

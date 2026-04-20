@@ -1,4 +1,5 @@
 using System.Threading;
+using FMODUnity;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -11,22 +12,18 @@ using Yarn.Unity;
 public class CharacterSound
 {
     public string charaterName;
-    public AudioClip[] clips;
+    public EventReference clips;
 }
 
 public class AudioDialogueManager : ActionMarkupHandler
 {
     [Header("Soundss")]
-    [SerializeField] private AudioSource dialogueSource;
     [SerializeField] private CharacterSound[] characters;
-    [SerializeField] private AudioClip[] defaultSound;
+    [SerializeField] private EventReference defaultSound;
 
-    private AudioClip[] _currentClips;
+    private EventReference _currentClips;
 
-    [Header("Option")]
-    [SerializeField] private float pitchChange = 0.2f;
-
-     public override void OnPrepareForLine(MarkupParseResult line, TMP_Text text)
+    public override void OnPrepareForLine(MarkupParseResult line, TMP_Text text)
     {
         if(characters == null)
         {
@@ -50,10 +47,9 @@ public class AudioDialogueManager : ActionMarkupHandler
     public override YarnTask OnCharacterWillAppear(int currentCharacterIndex, MarkupParseResult line, CancellationToken cancellationToken)
     {
         char letra = line.Text [currentCharacterIndex];
-        if((!char.IsWhiteSpace(letra) || !char.IsPunctuation(letra)) && _currentClips?.Length > 0)
+        if(!char.IsWhiteSpace(letra) || !char.IsPunctuation(letra))
         {
-            dialogueSource.pitch =1f + Random.Range(-pitchChange, pitchChange);
-            dialogueSource.PlayOneShot(_currentClips[Random.Range(0, _currentClips.Length)]);
+            RuntimeManager.PlayOneShot(_currentClips,transform.position);
         }
         return YarnTask.CompletedTask;
     }
