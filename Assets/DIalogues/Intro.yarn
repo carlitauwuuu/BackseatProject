@@ -2,7 +2,7 @@
 position: -139,-782
 ---
 Narrator:Magia potajia voy a espawnear un cubito.
-<<spawn_object>>
+<<spawn_object 0 0>>
 Narrator: Game starts on a black screen. 
 Narrator: Shows name of the city, date and time. 
 Narrator: It's just a few minutes from new years.

@@ -2,25 +2,24 @@ using UnityEngine;
 using Yarn.Unity;
 public class ObjectSpawner : MonoBehaviour
 {
-    public int NumSelector = 5
-    [SerializeField] private GameObject[] spawnables;
-    private DialogueRunner dRunner;
-     
+ public GameObject[] prefabs;
+    public Transform[] spawnPoints;
+
+    public DialogueRunner dialogueRunner;
 
     void Awake()
     {
-        dRunner = GetComponent<DialogueRunner>();
-        dRunner.AddCommandHandler("spawn_object", SpawnObject);
+        dialogueRunner = FindFirstObjectByType<DialogueRunner>();
+
+        // Register command manually
+       dialogueRunner.AddCommandHandler<int, int>("spawn_object", SpawnObject);
     }
 
-
-
-    public void SpawnObject(int  count)
+    public void SpawnObject(int prefabIndex, int spawnIndex)
     {
-         if (spawnables != null)
+        if (prefabIndex < prefabs.Length && spawnIndex < spawnPoints.Length)
         {
-            Instantiate(spawneable[], transform.position, Quaternion.identity);
-           
+            Instantiate(prefabs[prefabIndex], spawnPoints[spawnIndex].position, spawnPoints[spawnIndex].rotation);
         }
     }
 }
