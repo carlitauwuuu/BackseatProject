@@ -818,59 +818,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioListener
   nonRigidbodyVelocity: 0
   attenuationObject: {fileID: 0}
---- !u!1 &392170668
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 392170669}
-  - component: {fileID: 392170670}
-  m_Layer: 0
-  m_Name: DestroyWall
-  m_TagString: Destroy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &392170669
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 392170668}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20988, y: -516.4929, z: 1336.2948}
-  m_LocalScale: {x: 254.4556, y: 1500.2701, z: 2617.0757}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1823398015}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &392170670
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 392170668}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &408138303
 GameObject:
   m_ObjectHideFlags: 0
@@ -964,7 +911,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &410087040
 Light:
   m_ObjectHideFlags: 0
@@ -1989,6 +1936,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coche001_fbx
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cddfaf3b95d34c54bb9762fcaf43f9f3, type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2552,7 +2503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe83a5002f80ff8468b634a9ce33aa03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SectionTrigger
-  roadSection: {fileID: 1823398014}
+  roadSection: {fileID: 1162074215587173132, guid: 19d5f618bec2d1a42bce979eb58d80c2, type: 3}
 --- !u!65 &1220418270
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3165,22 +3116,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road
       objectReference: {fileID: 0}
-    - target: {fileID: 5153989774845534497, guid: 19d5f618bec2d1a42bce979eb58d80c2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -400
-      objectReference: {fileID: 0}
-    - target: {fileID: 5861272502387717602, guid: 19d5f618bec2d1a42bce979eb58d80c2, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.050304897
-      objectReference: {fileID: 0}
-    - target: {fileID: 5861272502387717602, guid: 19d5f618bec2d1a42bce979eb58d80c2, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.050304897
-      objectReference: {fileID: 0}
-    - target: {fileID: 5861272502387717602, guid: 19d5f618bec2d1a42bce979eb58d80c2, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.06727273
-      objectReference: {fileID: 0}
     - target: {fileID: 5861272502387717602, guid: 19d5f618bec2d1a42bce979eb58d80c2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -115
@@ -3223,22 +3158,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 5861272502387717602, guid: 19d5f618bec2d1a42bce979eb58d80c2, type: 3}
-      insertIndex: 38
-      addedObject: {fileID: 392170669}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19d5f618bec2d1a42bce979eb58d80c2, type: 3}
---- !u!1 &1823398014 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1162074215587173132, guid: 19d5f618bec2d1a42bce979eb58d80c2, type: 3}
-  m_PrefabInstance: {fileID: 1823398013}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1823398015 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5861272502387717602, guid: 19d5f618bec2d1a42bce979eb58d80c2, type: 3}
-  m_PrefabInstance: {fileID: 1823398013}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1948943488
 GameObject:
   m_ObjectHideFlags: 0
