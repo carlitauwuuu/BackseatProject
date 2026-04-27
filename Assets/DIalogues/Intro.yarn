@@ -172,9 +172,10 @@ Pasajera: We are not going to get there. It's too late
 TaxiDriver: But... 
 Pasajera: Please let me talk
 Pasajera: Just... Park the car.
-Pasajera: Listen, We are It's already to late.
+Pasajera: Listen, It's already to late.
 TaxiDriver: (Sigh)
-Pasajera: So what about we just celebrate it here?
+TaxiDriver: So what? We just stay here and let you miss your new years?
+Pasajera: what about we just celebrate it here?
 TaxiDriver:What...?
 Pasajera:I'm serious. Better than nothing...Right?
 TaxiDriver: Oh no, I'm not doing this...
@@ -190,9 +191,26 @@ TaxiDriver: What do you want to do?
 Narrator: At this point in the story you will be able to decorate the car with things that she gives you and you put on display in the front window of the car.
 Narrator: This things will be made so that the player can chose which things they want. Its important that each thing gives a bit of insight of the charater.
 Pasajera: Well I do have some stuff i was supossed to take there That maybe we can use to decorate the place.
-TaxiDriver:What's wrong with my car?
-Pasajera: Old car dosen't really give me the... Christmas spirit.
+TaxiDriver:What's wrong with my car?    
+Pasajera: Old car doesn't really give me the... Christmas spirit.
 TaxiDriver: Okay then... 
+TaxiDriver:So.... What have you got?
+Pasajera: Well we could light up the place a bit, I can barely see anything.
+Pasajera: Or we could hang something funny on the ceiling. Maybe some stickers?
+    -> I'll take the stickers
+<<jump Stickers>>
 
 
+    -> I'm curious, what exactly are you gonna hang.
+===
+
+title: Stickers
+
+---
+TaxiDriver: I'll take the stickers
+TaxiDriver: But promise me the glue will not get stuck on the car...
+Pasajera: What? no... Definately not... Surely...
+TaxiDriver: You don't give me much confidence. 
+Pasajera: Listen if they do i'll pay you extra... 
+TaxiDriver: 
 ===
