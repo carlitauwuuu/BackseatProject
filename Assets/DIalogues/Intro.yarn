@@ -196,15 +196,18 @@ Pasajera: Old car doesn't really give me the... Christmas spirit.
 TaxiDriver: Okay then... 
 TaxiDriver:So.... What have you got?
 Pasajera: Well we could light up the place a bit, I can barely see anything.
-Pasajera: Or we could hang something funny on the ceiling. Maybe some stickers?
+Pasajera: We could hang something funny on the ceiling. Maybe some stickers?
     -> I'll take the stickers
-<<jump Stickers>>
+        <<jump Stickers>>
 
 
-    -> I'm curious, what exactly are you gonna hang.
+    -> I'm curious, what exactly are you gonna hang?
+        <<jump hanging>>
+
 ===
 
 title: Stickers
+position: -542,1429
 
 ---
 TaxiDriver: I'll take the stickers
@@ -212,5 +215,232 @@ TaxiDriver: But promise me the glue will not get stuck on the car...
 Pasajera: What? no... Definately not... Surely...
 TaxiDriver: You don't give me much confidence. 
 Pasajera: Listen if they do i'll pay you extra... 
-TaxiDriver: 
+TaxiDriver:Right... Why do you have these anyways?
+Pasajera: Oh its pretty dumb actually...
+TaxiDriver: Don't leave me hanging now...
+Pasajera: I love my car okay? I decorate my car every holiday and always customize it whenever something special happens.
+TaxiDriver:Now why would that be dumb?
+Pasajera: I don't know... Sounds kinda cheesy.
+TaxiDriver:Let me tell you what, I name every car i've had.
+Pasajera: (Chuckle) Really? What's the name of this car?
+TaxiDriver:(Sigh) Bonnie...
+Pasajera: No way... I guess that makes you Clydle?
+TaxiDriver: Yep...  Right... 
+Pasajera: Well... I hope bonnie likes the stickers then.
+ <<jump SecondchoiceAct>>
+===
+
+title: hanging
+
+---
+TaxiDriver: I'm interested on whatever you are gonna hang...
+Pasajera: You won't be dissapointed believe me...
+Pasajera: There! Tell me that's not amazing
+TaxiDriver: Not as bad as i thought...
+TaxiDriver: You know... I gifted something similar to my grandma once.
+TaxiDriver: It was also a santa climbing stairs, but really big and we put it on the balcony so that it looked like he was getting in the house.
+TaxiDriver: 20 minutes later my grandma was freaking out on the phone because "Someone" was trying to sneak in her home.
+Pasajera: (Chuckle) No way... What happened after?
+TaxiDriver: Nothing... Thank god she called me and not the cops or something...
+TaxiDriver: I told her if she wanted it off but after she knew I put it there, she let it stay there for like the whole year.
+Pasajera: Awh that's really nice...
+Pasajera: Well glad you liked it...
+TaxiDriver: It's nice... Thank you
+ <<jump SecondchoiceAct2>>
+
+===
+
+title: SecondchoiceAct2
+
+---
+
+Pasajera: Well, now that that's out of the way, why don't I make you look more festive?
+TaxiDriver: No you are not.
+Pasajera: Come on... Just this once... You are gonna look great...
+TaxiDriver:...
+Pasajera:Please?
+Pasajera:Pretty Please...?
+TaxiDriver: Ahh What the hell, alright, what are my options...
+Pasajera: Thank you! You will not regret this.
+Pasajera: Alright... I have a shiny hat with a 2000s logo...
+Pasajera: The super popular 2000s glasses...
+Pasajera: Or a santa claus hat if you are still feeling the Christmas spirit...
+TaxiDriver: Alright...
+    -> I'll take the glasses
+        <<jump glasses>>
+
+    -> Can't go wrong with a shiny hat...
+        <<jump hatshiny>>    
+        
+    -> Bit late for Santa but...
+        <<jump hatsanta>> 
+===
+
+title: glasses
+
+---
+
+TaxiDriver: Oh is it gonna be one of those...
+Pasajera: You are not gonna regret this, they look so funny...
+Pasajera: Here take em.
+TaxiDriver: Thank you...
+TaxiDriver: So... How do i look?
+Pasajera: hehe... Definately looking very hip right now...
+TaxiDriver: You know this is a cool design actually... Very smart
+TaxiDriver: I wonder what they are gonna do after this decade...
+TaxiDriver: How are they gonna do the glasses without the two zeroes?
+Pasajera: Oh they will figure something out believe me...
+Pasajera: Well you look great!
+TaxiDriver: Yeah... Very festive...
+<<jump ThirdchoiceAct2>> 
+===
+
+title: hatshiny
+
+---
+Pasajera: exactly!
+Pasajera: Here let me put it for you...
+TaxiDriver: So? How do I look?
+Pasajera: (Chuckle) great! great...
+TaxiDriver: You are trying not to laugh...
+Pasajera: No I'm not!
+Pasajera: you just look stunning.
+TaxiDriver: I can see you laughing on the wing mirror...
+Pasajera: What? No... Me? laughing? I would never do such a thing.
+<<jump ThirdchoiceAct2>> 
+===
+
+title: hatsanta
+
+---
+
+TaxiDriver: One question tho... Why do you have a Santa hat?
+Pasajera: I mean Christmas wasn't that long ago...
+TaxiDriver: Yeah but it's new years...
+Pasajera: (Sigh) Well... my younger sister wanted to celebrate it...
+Pasajera: Unfortunately I coudn't really make it...
+Pasajera: So I thought better late than ever... 
+Pasajera: So we where gonna celebrate it today
+TaxiDriver: I guess... How old is she?
+Pasajera: Oh, like 8
+TaxiDriver: Oh I see...
+TaxiDriver:  When did they tell you Santa wasn't real?
+Pasajera: What do you mean? He is totally real.
+TaxiDriver: Right.
+<<jump ThirdchoiceAct2>> 
+===
+
+title: ThirdchoiceAct2
+
+---
+Pasajera: Alright how about one last detail for your car...
+Pasajera: I have a nice little snow globe for you...
+Pasajera: Or a dancing Santa, hula girl style!
+Pasajera: So, Which one will it be?
+        -> I'll take the snow globe
+            <<jump SnowGlobe>> 
+        -> Give me the dancing Santa.
+             <<jump Santadance >> 
+===
+
+title: SnowGlobe
+---
+TaxiDriver: Show me that SnowGlobe.
+Pasajera: Here you go.
+TaxiDriver: Oh It's quite pretty actually
+Pasajera: I got it when I was in germany actually.
+TaxiDriver: No way? Where you there with your family?
+Pasajera: Nah... Work related trip...
+TaxiDriver: Oh, sorry.
+Pasajera: It's fine, you can keep it.
+TaxiDriver: You sure?
+Pasajera: Course! Looks great on your car.
+<<jump Act2Ending>> 
+===
+
+title: Santadance
+---
+TaxiDriver: You have a dancing Santa?
+Pasajera: Yeah! Cousin of mine is from hawaii, she brings these all the time
+Pasajera: It's like a dance festival in my car all the time. Too many of them...
+Pasajera: Here. It's for you
+Pasajera: You can keep it.
+TaxiDriver: You sure?
+Pasajera: Course! Looks great on your car.
+<<jump Act2Ending>> 
+
+===
+
+title: Act2Ending
+
+---
+Pasajera: Well, this place is looking much better! 
+Pasajera: Now let me just add one final touch...
+TaxiDriver: You come awfully prepared...
+Pasajera: Hold on give me a minute...
+TaxiDriver: Woah, what are you up too?
+Pasajera: Give me a second...
+TaxiDriver: Please, don't break my car.
+Pasajera: Aaaand done! All lighten up!
+TaxiDriver: Oh, this is actually really nice...
+Pasajera: You have to put some trust on me T...
+TaxiDriver: T? 
+Pasajera: Well since you are a Taxi driver, might aswell call you T?
+TaxiDriver: Well my name is actually...
+Radio: Thank you everyone for accompaning us on this great night! 
+Radio: And here I wonder, what awaits us in the new millenium?
+Radio: Will the planes come crashing down? Electricity stop working? 
+Radio: Or will this finally be the millenium where flying cars are no longer a dream.
+Radio: But a possibility...
+Radio: We are just 1 minute away from discovering it!
+TaxiDriver: Oh shit... One minute?!
+Pasajera: Awh dammit, I forgot the grapes.
+TaxiDriver: You allergic to nuts?
+Pasajera: Wha...?
+TaxiDriver: I have bag, We can just eat those for the countdown...
+Pasajera: Wait no... I have them somewhere...
+Radio: 30 Seconds for the countdown!
+TaxiDriver: No good, just take em.
+Pasajera: Awh, I swear I had them here somewhere...
+TaxiDriver: Its fine. Just take them really.
+TaxiDriver: This new years is already weird enough. Right?
+Pasajera: Heh... Thank you...
+Radio: Attention everyone countdown is starting!
+TaxiDriver: Ready?
+Pasajera: Yup.
+Radio: Twelve!
+TaxiDriver: Here we go...
+Radio: Eleven!
+Radio: Ten!
+Radio: nine!
+Radio: Eight!
+TaxiDriver: How are you holding up?
+Pasajera: gwell. Ihm trhhing! (Mouth full)
+Radio: Seven!
+Radio: Six!
+Radio: Five! 
+Radio: Four!
+Radio: Three!
+Radio: Two!
+Radio: One!
+Radio: Happy new year!
+TaxiDriver: Happy new year!
+Pasajera: (Cough) (Cough) Happy new year!
+<<jump ThirdAct>>
+===
+
+title: ThirdAct
+---
+TaxiDriver: That wasn't so bad actually.
+Pasajera: Yeah... It was great.
+Pasajera: Here... Happy new year.
+TaxiDriver: What is this?
+Pasajera: A gift, for you. For all the trouble...
+TaxiDriver: Oh It was okay really... You don't have to...
+Pasajera: Can you open it when you get home?
+TaxiDriver: Oh... Sure, yeah no problem.
+TaxiDriver: What is it?
+Pasajera: It's a suprise...
+TaxiDriver: Of course...
+
 ===
