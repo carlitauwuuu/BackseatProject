@@ -32,7 +32,7 @@ public class CameraC : MonoBehaviour
     {
         float deltaY = value.ReadValue<float>() * mouseSensibilityY * Time.deltaTime;
         rotationX -= deltaY;
-        rotationX = Mathf.Clamp(rotationX, -maxRotationX, maxRotationX);
+        rotationX = Mathf.Clamp(rotationX, -maxRotationX, 10);
         transform.localRotation = Quaternion.Euler(rotationX, rotationY, 0f);
     }
 }
