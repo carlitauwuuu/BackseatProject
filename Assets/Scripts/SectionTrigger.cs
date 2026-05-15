@@ -12,7 +12,11 @@ public class SectionTrigger : MonoBehaviour
         {
             canSpawn = false;
 
-            Instantiate(roadSection, new Vector3(-900, 28, -86), Quaternion.identity);
+            Instantiate(
+                roadSection,
+                new Vector3(-509, -10, 20),
+                Quaternion.Euler(0, 90, 0)
+            );
 
             Invoke(nameof(ResetSpawn), 0.2f);
         }
