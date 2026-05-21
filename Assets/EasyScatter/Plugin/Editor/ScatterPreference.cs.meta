@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 8bb8f48cdf93e224d83df85423e6c994
+timeCreated: 1449427523
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 51269
+  packageName: 'Easy Scatter : Prefab brush'
+  packageVersion: 1.2.0
+  assetPath: Assets/EasyScatter/Plugin/Editor/ScatterPreference.cs
+  uploadId: 360871

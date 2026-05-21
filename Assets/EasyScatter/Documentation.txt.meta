@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cf14816814e492a49a8cb4089ae2da25
+timeCreated: 1449574580
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 51269
+  packageName: 'Easy Scatter : Prefab brush'
+  packageVersion: 1.2.0
+  assetPath: Assets/EasyScatter/Documentation.txt
+  uploadId: 360871
