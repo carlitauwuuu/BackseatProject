@@ -3,12 +3,11 @@ using UnityEngine;
 public class Move : MonoBehaviour
 {
     public int _speed = 70;
-    public float segmentLenght = 427.1597f;
 
     Transform _transform;
     Vector3 initialPosition;
     float respawnPoint = 279.5597f;
-    float respawnOffset = -574.7f;
+    public float respawnOffset = -574.7f;
     Vector3 respawnPosition;
 
     void Start()

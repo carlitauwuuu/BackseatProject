@@ -11,7 +11,6 @@ public class ObjectSpawner : MonoBehaviour
     {
         dialogueRunner = FindFirstObjectByType<DialogueRunner>();
 
-        // Register command manually
        dialogueRunner.AddCommandHandler<int, int>("spawn_object", SpawnObject);
     }
 
