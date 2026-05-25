@@ -12,17 +12,17 @@ Narrator: It's all going to change soon.
 <<Play_SFX "Wind" 0 0 0>>
 <<Play_SFX "Radio" 0 0 0>>
 <<Play_Music "music">>
-TaxiRadio: We need uhh... Ah taxi, It's quite urgent. Anyone available? RadioFriend on Fides street.
-TaxiRadio: Anyone?
+RadioFriend: We need uhh... Ah taxi, It's quite urgent. Anyone available? on Fides street?
+RadioFriend: Anyone?
 Narrator: The silence is deafening, too much for you to bear. 
 <<Play_SFX "Door" 0 0 0>>
 TaxiDriver: I got it, I got it. I'm on my way.
-TaxiRadio: Alright. Wait... where are you right now exactly?
+RadioFriend: Alright. Wait... where are you right now exactly?
 TaxiDriver: I'm in amina street.
-TaxiRadio: Why?
-TaxiRadio: That's like, pretty far from there. You sure you wanna go?
+RadioFriend: Why?
+RadioFriend: That's like, pretty far from there. You sure you wanna go?
 TaxiDriver: Who else is up at this hour at this day in particular? I'll take it man.
-TaxiRadio: Alright, Alright. Just... Take it easy man, I don't want you working to much on new years. Hear me?
+RadioFriend: Alright, Alright. Just... Take it easy man, I don't want you working to much on new years. Hear me?
 TaxiDriver: Yeah. I got it. 
 
 Narrator: You put your gloves on and start going there, its a long road ahead. 
