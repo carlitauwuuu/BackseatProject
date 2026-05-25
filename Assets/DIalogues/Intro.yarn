@@ -1,16 +1,11 @@
 ﻿title: Start
 position: -139,-782
 ---
-Narrator:Magia potajia voy a espawnear un cubito.
-<<spawn_object 0 0>>
-Narrator: Game starts on a black screen. 
-Narrator: Shows name of the city, date and time. 
-Narrator: It's just a few minutes from new years.
-Narrator: (Slow fade in to a taxi on stand by. The charater is sitting alone in the taxi. It's all silent for a few seconds)
-Narrator: Game shows a black bar to the right of the screen that shows all the text.
+
 TaxiRadio: We need uhh... Ah taxi, It's quite urgent. Anyone available? Taxi on Street (We need the name of a street)
 TaxiRadio: Anyone?
 Narrator: The silence is deafening, too much for you to bear. 
+<<Play_SFX "Door" 0 0 0>>
 TaxiDriver: I got it, I got it. I'm on my way.
 TaxiRadio: Alright. Wait... where are you right now exactly?
 TaxiDriver: I'm in (Need the name of a street)
