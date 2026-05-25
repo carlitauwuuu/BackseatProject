@@ -1,17 +1,24 @@
 ﻿title: Start
 position: -139,-782
 ---
-Narrator: BackSeat
+
+Narrator: It's December 31 1999.
+Narrator: Just a few minutes away from New years.
+Narrator: Your car, the sound of the wind, the silence.
+Narrator: It soothes you.
+Narrator: But you feel it. 
+Narrator: It's all going to change soon.
+<<fade_out 4>>
 <<Play_SFX "Wind" 0 0 0>>
 <<Play_SFX "Radio" 0 0 0>>
 <<Play_Music "music">>
-TaxiRadio: We need uhh... Ah taxi, It's quite urgent. Anyone available? Taxi on Street (We need the name of a street)
+TaxiRadio: We need uhh... Ah taxi, It's quite urgent. Anyone available? RadioFriend on Fides street.
 TaxiRadio: Anyone?
 Narrator: The silence is deafening, too much for you to bear. 
 <<Play_SFX "Door" 0 0 0>>
 TaxiDriver: I got it, I got it. I'm on my way.
 TaxiRadio: Alright. Wait... where are you right now exactly?
-TaxiDriver: I'm in (Need the name of a street)
+TaxiDriver: I'm in amina street.
 TaxiRadio: Why?
 TaxiRadio: That's like, pretty far from there. You sure you wanna go?
 TaxiDriver: Who else is up at this hour at this day in particular? I'll take it man.
@@ -68,12 +75,12 @@ TaxiDriver: Uhm... I-I'm gonna change channels
 Narrator: While looking at the road you search the channel knob with your right hand. You think you have found it ,but your mussle memory is telling you otherwise, it's a knob, yes, but it dosen't feel like the car radio one. You turn it anyways
 Narrator: (There is a bit of silence for a few seconds, silence broken by a bit of static, until...)
 <<Play_SFX "Radio" 0 0 0>>
-Taxi: Hey man, Is that you? Did you get the girl? Hello? Oh by the way you still owe me 20 dolars from yesterday just as a reminder...
+RadioFriend: Hey man, Is that you? Did you get the girl? Hello? Oh by the way you still owe me 20 dolars from yesterday just as a reminder...
 TaxiDriver: -Um H-Hi yeah I got her. We are heading there right now. 
-Taxi: Right now? You are still not there yet? Man poor girl, she must be dying to get there, you better get there in time man or else I'm gonna up those 20 dolars you owe me to 40.
+RadioFriend: Right now? You are still not there yet? Man poor girl, she must be dying to get there, you better get there in time man or else I'm gonna up those 20 dolars you owe me to 40.
 Narrator: I want to be anywhere but in this taxi right now
 Girl: I want to say mr radio man that your friend here is doing a fantastic job of getting me to my destination and you shouldn't worry about a thing.
-Taxi: If you say so... I guess you will just be owing me 20, lucky you. Anyways i'll leave you to it man see ya.
+RadioFriend: If you say so... I guess you will just be owing me 20, lucky you. Anyways i'll leave you to it man see ya.
 Narrator: As soon as you get the oportunity you turn off the taxi radio, leaving just the sound of the engine and the road 
 Girl: Was that your friend?
 TaxiDriver: Y-Yeah
@@ -97,7 +104,7 @@ TaxiDriver: My life ain't to expensive.
 Girl: What do you enjoy about it?
 TaxiDriver: I don't know, The lights , I guess the people, just driving all that.
 Girl: Oh, I thought you weren't that much of a talker.
-Girl: So why a be a Taxi Driver?
+Girl: So why a be a RadioFriend Driver?
 TaxiDriver: Yeah I told you, The light's and all...
 Girl: Come on you can do better than that...
 TaxiDriver: I guess... It's like fun to imagine were people are going.
@@ -385,7 +392,7 @@ Girl: Aaaand done! All lighten up!
 TaxiDriver: Oh, this is actually really nice...
 Girl: You have to put some trust on me T...
 TaxiDriver: T? 
-Girl: Well since you are a Taxi driver, might aswell call you T?
+Girl: Well since you are a RadioFriend driver, might aswell call you T?
 TaxiDriver: Well my name is actually...
 Radio: Thank you everyone for accompaning us on this great night! 
 Radio: And here I wonder, what awaits us in the new millenium?
@@ -608,5 +615,26 @@ Narrator: end of chapter 3
 title: Ending
 ---
 
-Narrator: Fade in.
+TaxiDriver: ...
+TaxiDriver: Hey
+RadioFriend: So... How was your new years?
+TaxiDriver: uhh... Good... Good.
+TaxiDriver: It was great actually.
+RadioFriend: Did you stop through to eat with your family?
+TaxiDriver: uhh what?
+RadioFriend: Family, Did you eat with your family?
+TaxiDriver: Oh right, Yeah, Yeah of course...
+RadioFriend: You are... A lost cause...
+TaxiDriver: Fine... Maybe i did not spend time with my family this new years...
+TaxiDriver: But, I did spend time with someone that is very dear to me.
+RadioFriend: Yeah? How was it?
+TaxiDriver: Great actually.
+TaxiDriver: It was great.
+RadioFriend: I think this is the first time I've ever heard you this cheerfull actually.
+TaxiDriver: (smirks) Hehe... right, like you can see my face right now...
+RadioFriend: Na... It's the tone of your voice you know?
+TaxiDriver: Well... New decade and all that, I've got high hopes.
+RadioFriend: What's gotten into you all of the sudden?
+TaxiDriver: nothing... nothing....
+TaxiDriver: Well. It's been nice
 ===
