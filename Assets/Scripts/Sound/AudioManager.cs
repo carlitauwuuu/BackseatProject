@@ -11,7 +11,6 @@ public class AudioManager : MonoBehaviour, IAudioSystem
 
     private EventInstance musicInstance;
 
-    private List <AudioSource> sfxPool = new List<AudioSource>();
     void Awake()
     {
         if(Instance == null)

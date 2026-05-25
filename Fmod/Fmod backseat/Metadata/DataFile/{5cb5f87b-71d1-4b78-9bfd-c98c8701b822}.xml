@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{5cb5f87b-71d1-4b78-9bfd-c98c8701b822}">
+		<property name="assetPath">
+			<value>PlaceholderAudio/400 Sounds Pack/music-loop-bundle-chiptune/Free Chiptune Metadata.png</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0416a77e-1925-44ad-a8f0-7e620c032a08}</destination>
+		</relationship>
+	</object>
+</objects>

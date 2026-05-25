@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{083a3efd-7e06-4184-b794-b28cf398dd7d}">
+		<property name="assetPath">
+			<value>PlaceholderAudio/400 Sounds Pack/Materials/cardboard_box_close.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.1726077097505669</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0416a77e-1925-44ad-a8f0-7e620c032a08}</destination>
+		</relationship>
+	</object>
+</objects>

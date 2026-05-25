@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{804b7f91-db31-4cbe-b8ec-8a07f8d03b61}">
+		<property name="assetPath">
+			<value>PlaceholderAudio/400 Sounds Pack/music-loop-bundle-chiptune/Three Red Hearts Box Jump.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>99.000136054421773</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0416a77e-1925-44ad-a8f0-7e620c032a08}</destination>
+		</relationship>
+	</object>
+</objects>

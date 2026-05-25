@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{9c2df94c-dba6-4c47-b51f-84bc9965f749}">
+		<property name="assetPath">
+			<value>PlaceholderAudio/400 Sounds Pack/Combat and Gore/crunch_splat.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.75464852607709754</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0416a77e-1925-44ad-a8f0-7e620c032a08}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{9754ada3-434b-42e3-8b64-ac1c0a7ef5c9}">
+		<property name="assetPath">
+			<value>PlaceholderAudio/400 Sounds Pack/UI/select_2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.17698412698412699</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0416a77e-1925-44ad-a8f0-7e620c032a08}</destination>
+		</relationship>
+	</object>
+</objects>

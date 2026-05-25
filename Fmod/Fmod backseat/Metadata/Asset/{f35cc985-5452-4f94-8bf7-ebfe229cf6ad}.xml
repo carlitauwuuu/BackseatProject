@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{f35cc985-5452-4f94-8bf7-ebfe229cf6ad}">
+		<property name="assetPath">
+			<value>PlaceholderAudio/400 Sounds Pack/Footsteps/digital/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0416a77e-1925-44ad-a8f0-7e620c032a08}</destination>
+		</relationship>
+	</object>
+</objects>
